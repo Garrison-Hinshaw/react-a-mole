@@ -11,7 +11,7 @@ function App() {
         for (let i = 0; i < 9; i++) {
             hills.push(
                 <MoleContainer
-                key="" setScore={setScore}
+                key="i" setScore={setScore}
                 score={score} />
             )
         }
